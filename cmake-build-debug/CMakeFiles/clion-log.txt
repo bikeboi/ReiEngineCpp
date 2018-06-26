@@ -1,0 +1,4 @@
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug

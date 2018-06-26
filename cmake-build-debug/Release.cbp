@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Release"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/bin/Release" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="./bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/Lua"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/ReiLib"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Audio"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Graphics"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Network"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/System"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Window"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Release"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Release/fast">
+				<Option output="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/bin/Release" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="./bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/Lua"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/ReiLib"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Audio"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Graphics"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Network"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/System"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/include/SFML/Window"/>
+					<Add directory="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../include/c++/8.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Release/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AnimSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AnimSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AssetManager.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AssetManager.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AudioSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/AudioSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/CollisionSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/CollisionSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/CompManager.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/CompManager.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Components.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Engine.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Engine.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Entity.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/EntityManager.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/EntityManager.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/InputModules.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/InputSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/InputSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/PhysicsSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/PhysicsSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/RenderSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/RenderSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Scene.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Scene.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/SceneMachine.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/SceneMachine.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/ScriptSystem.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/ScriptSystem.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/System.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/Utility.h">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/src/main.cpp">
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="/home/bikeboi/Documents/ReiEngine-Dep/ReiEngine-3.4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
