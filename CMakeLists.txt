@@ -17,7 +17,6 @@ include_directories(src)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "./bin")
 
 # Find and add SFML
-set(SFML_DIR "./)
 
 add_executable(Release
         src/AnimSystem.cpp

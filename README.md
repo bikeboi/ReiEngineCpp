@@ -7,5 +7,3 @@ in the VS Solution folder as well.
 
 **IMPORTANT**: The project is missing some dependencies that are 
 still being sortrd out. It cannot be built in its current state
-
--- Michael Kareithi
