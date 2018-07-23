@@ -1,4 +1,4 @@
-# Rei-Engine 3.2
+# Rei-Engine 
 
 The Visual Studio solution is within the `VS2017 Solution` folder.
 Open the solution and build for either debug or release
