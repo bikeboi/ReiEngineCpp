@@ -1,0 +1,10 @@
+The <sol.hpp> used in this library is slightly modified.
+The include on line 1571 (or thereabouts): 
+	#include <lua.hpp>
+
+is actually:
+	#include <Lua/lua/hpp>
+
+because of the structuring of the directory.
+
+[This is not true as of 25/04/2018]

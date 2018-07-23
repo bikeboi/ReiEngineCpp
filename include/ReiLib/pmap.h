@@ -3,7 +3,6 @@
 #include <map>
 #include <vector>
 #include <algorithm>
-#include <iostream>
 
 #define PMAP_MAX_SIZE 256
 
@@ -49,7 +48,7 @@ namespace rei
 		{
 			if (data.size() < PMAP_MAX_SIZE)
 			{
-				auto pIndex = (unsigned int)data.size();
+				unsigned int pIndex = (unsigned int)data.size();
 				unsigned int dIndex = 0;
 				data.push_back(DataPair(val));
 				for (DataPair& pair : data)

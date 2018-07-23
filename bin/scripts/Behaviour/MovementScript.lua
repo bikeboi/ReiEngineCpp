@@ -9,7 +9,7 @@ local face = RIGHT
 local pre_face = face
 
 function Init()
-	movespeed = 0.15
+	movespeed = 0.01
 	setAnimSpeed(Anim, 1)
 end
 
