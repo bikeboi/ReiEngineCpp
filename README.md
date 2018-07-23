@@ -18,7 +18,7 @@ header files of the systems requiring the scripts. For example; The
 
 ### Building (currently Windows only)
 The Visual Studio Solution and corresponding files can be found within 
-the [VS 2017 Solution]('./VS 2017 Solution') folder. All the project's 
+the `VS 2017 Solution` folder. All the project's 
 dependencies can be 
 located within this folder, so extracting said folder and building it in 
 a different directory should have no issues.
