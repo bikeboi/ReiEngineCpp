@@ -12,5 +12,7 @@ are mandatory for the engine to load entities, scenes and textures
 respectively. Behaviour scripts for each entity can then be added or 
 removed freely within the `Behaviour` folder.
 
+**Building:**See the [master](ReiEngineCpp/master)
+
 ## License
 This project is under an [MIT License](./LICENSE)
