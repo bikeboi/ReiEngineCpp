@@ -1,4 +1,4 @@
-# Rei-Engine 3.2
+# Rei-Engine 1.0
 
 ### Running the program
 All you need to do is run the `ReiEngine-3.2` executable in the `bin` 
