@@ -1,4 +1,4 @@
-# Rei-Engine 1.0
+# Rei-Engine 0.4
 
 > A simple scriptable 2D game engine
 
