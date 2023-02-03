@@ -8,7 +8,7 @@ create games in with Lua. Though you may be reading this on a supposed `release`
 not be fooled. This project has not been (and may never) be released.
 
 ## Using the engine
-It's currently only built for Windows (que everyone closing this page).
+It's currently only built for Windows.
 All you need to do is run the `ReiEngine-3.2` executable in the `bin` 
 directory and have fun :D.
 There's no 'structure' as such to the locations for resource files and scripts, but the locations can be easily changed
